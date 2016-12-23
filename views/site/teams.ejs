@@ -1,0 +1,16 @@
+<h1>All Teams</h1>
+
+<% foo.forEach(function(baz) { %>
+<div class="row">
+  <div class="col-xs-12">
+    <p>
+    Team:
+      <a href="#">
+        <%= baz.teamName %>
+      </a>
+    </p>
+    <p>Wins: <%= baz.wins %></p>
+  </div>
+</div>
+<hr>
+<% }); %>
